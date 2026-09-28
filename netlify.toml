@@ -1,0 +1,10 @@
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/registries"
+  to = "/.netlify/functions/registries"
+  status = 200
+
+[functions."refresh-registries"]
+  schedule = "@daily"

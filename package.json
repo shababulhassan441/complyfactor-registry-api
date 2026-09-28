@@ -1,0 +1,9 @@
+{
+  "name": "complyfactor-registry-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@netlify/blobs": "^10.7.13"
+  }
+}
